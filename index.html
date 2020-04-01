@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<div class="header">
+			<h1 style="font-family:Apple Chancery, cursive">日本へ行けたい~~~~~</h1>
+			<h1>I WANT TO GO TO JAPAN... ONCE QUARANTINE IS OVER... OR ONCE I HAVE MONEY</h1>
+			<h1>THIS IS... ANASTASIA'S OFFICIAL PLAN :))) IF YOU DON'T LIKE IT :( YOU BAD :\</h1>
+		</div>
+		<style>
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #37e1ff;
+  color: white;
+  font-size: 15px;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+button {
+	width:25%;
+}
+
+img {
+	object-fit: contain;
+	height:350px;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgb(222, 197, 255);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgb(214, 153, 255);
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  overflow: hidden;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: #537fdd;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(80, 71, 201);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgb(102, 66, 168);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  width: 60px;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(241, 9, 183);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(190, 12, 190);
+}
+
+		</style>
+	</head>
+	<body>
+		<h2 style="font-family:Apple Chancery, cursive;">~'~'~'~Tokyo~'~'~'~'~</h2>
+			
+			<div class="tab">
+			  <button class="tablinks" onclick="openCity(event, 'To visit')">To visit</button>
+			  <button class="tablinks" onclick="openCity(event, 'To eat')">To eat</button>
+			  <button class="tablinks" onclick="openCity(event, 'Notes')">Notes</button>
+			  <button class="tablinks" onclick="openCity(event, 'Questions')">Questions</button>
+			</div>
+			
+			<div id="To visit" class="tabcontent">
+			  <!--
+				<button class="accordion">Section 3</button>
+				<div class="panel">
+				<p>Lorem ipsum...</p>
+				</div>
+				-->
+				<button class="accordion">teamLab Borderless, Aomi, Koto City (チームラボボーダレス)</button>
+				<div class="panel">
+				<img src="https://borderless.teamlab.art/images/sp-l/14780" alt=teamlab>
+				<img src="https://media.timeout.com/images/105245696/630/472/image.jpg"></br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.0533010689323!2d139.78093131510985!3d35.62641248020707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889fad49a9443%3A0x5831aba3288d2651!2steamLab%20Borderless!5e0!3m2!1sen!2sau!4v1585484161533!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				
+				<button class="accordion">Cat Street, Jingumae, Shibuya City (キャットストリート)</button>
+				<div class="panel">
+				<img src="https://metropolisjapan.com/wp-content/uploads/2017/05/IMG_9875.jpg" alt=cat_street ><p>There are no cats anymore :( More information: https://travel.gaijinpot.com/harajuku-cat-street/</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.396392032853!2d139.7043103151111!3d35.66724048019757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca3f81b2913%3A0x6cf7f15501c79503!2sCat%20Street!5e0!3m2!1sen!2sau!4v1585484130951!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				
+				<button class="accordion">Owl Village Cafe Harajuku, Jingumae, Shibuya City (武蔵野カフェ＆バー ふくろうの里 原宿店)</button>
+				<div class="panel">
+				<img src="https://livingnomads.com/wp-content/uploads/2019/10/02/Harajuku-Cafe-Japan-Owl-Cafe-Bar-Owl-Village-16.jpg">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.1937960096484!2d139.7013118151111!3d35.67222988019642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cba57e6d69d%3A0x850545d8d4d99d5c!2sOwl%20Village%20Cafe%20Harajuku!5e0!3m2!1sen!2sau!4v1585484093472!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Kosugiyu Bathhouse, Koenjikita, Suginami City (outskirts) (小杉湯)</button>
+				<div class="panel">
+				<img src="https://media.timeout.com/images/102541655/750/422/image.jpg" ><p>Speciality: milk baths + rotating flavours</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.7379102558116!2d139.64657781511224!3d35.708066680188054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f27e71b0d029%3A0xcac1c06748a11ee2!2sKosugiyu!5e0!3m2!1sen!2sau!4v1585484065841!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Mt Takao, Takaomachi, Hachiōji</button>
+				<div class="panel">
+				<img src=https://www.gotokyo.org/en/story/walks-and-tours/mt-takao/images/takaosan_1024x800.jpg ><p>1hr 30 mins from Shinjuku Station. Can hike up from bottom of the mountain or take cable car to half up, then walk.</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12972.375565373382!2d139.23498373243075!3d35.6254117833156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019197f5ea3876f%3A0xc7070b841ef62fdf!2sMount%20Takao!5e0!3m2!1sen!2sau!4v1585484033680!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Meguro River Cherry Blossoms Promenade, Nakameguro, Meguro City (目黒川の桜並木)</button>
+				<div class="panel">
+				<p>A bit out of the way, but its beautiful and has lots of street food stalls</p>
+				<img src="https://a3.cdn.japantravel.com/photo/11507-195928/840x560!/tokyo-meguro-river-cherry-blossoms-195928.jpg">
+				<img src="https://dimg04.c-ctrip.com/images/35090z000000n5vxv7273_C_1080_600_Q80.jpg?proc=source/trip;namelogo/d_40" >
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25940.33664921138!2d139.70495023190168!3d35.63901381071758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b1f906d5635%3A0x5648e41133f6fce8!2sMeguro%20River%20Cherry%20Blossoms%20Promenade!5e0!3m2!1sen!2sau!4v1585566014816!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Yushima Tenmangu, Yushima, Bunkyou City (湯島天満宮)</button>
+				<div class="panel">
+				<p>small Shinto shrine, good for plum blossom viewing</p>
+				<img src="https://japanistry-yvxqriqk.netdna-ssl.com/wp-content/uploads/2018/03/Yushima-Shrine-Plum-Festival-01.jpg">
+				<img src="https://images.squarespace-cdn.com/content/v1/574e2faa45bf21410cb206ac/1519822256206-MPDAL8M2NTMD5XEBYIVZ/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSCF1940.jpg">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4119.079337490722!2d139.76796196291696!3d35.7076537718279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c2179792993%3A0xbae1fad02c5ee1d5!2sYushima%20Tenmangu!5e0!3m2!1sen!2sau!4v1585617556156!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Tsukiji Outer Market, Tsukiji, Chuo City (築地場外市場)</button>
+				<div class="panel">
+				<p>Good fresh seafood market + other stuff</p>
+				<img src="https://thisgirlabroad.com/wp-content/uploads/2017/06/tsukiji-fish-market-tokyo-4-1024x768.jpg">
+				<img src="https://thisgirlabroad.com/wp-content/uploads/2017/06/tsukiji-fish-market-tokyo-2-768x576.jpg">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12965.983121324185!2d139.7700273926834!3d35.664792590000374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bdf2f796ca7%3A0x94d281085f8a0bd4!2sTsukiji%20Outer%20Market!5e0!3m2!1sen!2sau!4v1585642156528!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Strawberry-picking farms; choice of 2</button>
+				<div class="panel">
+				<p>So far, I have shortlisted 2 farms, both within 2 hrs of Tokyo... here they are!</p>
+				<div class="row">
+					<div class="column">
+						<h3>田中ストロベリーファーム (Tanaka Strawberry Farm)</h3>
+						<p>About 1hr from, say, Ueno Station. Here is the location:</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d163368.03607811694!2d139.3536193402955!3d35.670952978343216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1585652123662!5m2!1sen!2sau" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>					</div>
+						<p>Pros: less travel than for #2</br>
+						Cons: </br>
+						Links: <a href="http://kiyose-ichigo.com/">website</a></br>
+						<a href="https://www.jalan.net/kankou/spt_guide000000191948/?screenId=OUW3701&influxKbn=0">reviews from jalan.net</a></p>
+					</div>
+					
+					<div class="column">
+						<h3>やさいの家 (Yasai's House)</h3>
+						<p>About 1.5 hrs from Shunjuku Station. Here is the location:</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70444.16877662644!2d139.2656080006302!3d35.611408930203794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x47ce93551dd3210c!2z55S655Sw44GE44Gh44GU54up44KK6L6y5ZySIOOChOOBleOBhOOBruWutg!5e0!3m2!1sen!2sau!4v1585704148198!5m2!1sen!2sau" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						<p>Pros:</br>
+						Cons: </br>
+						Links: <a href="http://ecofarmer.net/index.php">website</a></br>
+						<a href="https://www.jalan.net/kankou/spt_guide000000192652/activity_plan/?pattern_a=&pattern_g=%82%A2%82%BF%82%B2%8E%EB%82%E8%81%40%82%E2%82%B3%82%A2%82%CC%89%C6&showplan=top_keyword">reviews from jalan.net</a> </p>
+					</div>
+				</div>
+				</p>
+				
+				
+				</div>
+
+			</div>
+			
+			<div id="To eat" class="tabcontent">
+			  <!--
+				<button class="accordion">Section 3</button>
+				<div class="panel">
+				<p>Lorem ipsum...</p>
+				</div>
+				-->
+				<button class="accordion">Ninja Akasaka, Akasaka, Chiyoda City (忍者赤坂)</button>
+				<div class="panel">
+				<p>Themed restaurant, izakaya</p><img src="https://img.japankuru.com/prg_img/img/img2019101717042407679200.jpg" alt=ninja_akasaka>
+				<img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/06/44/34/ninja-akasaka.jpg"></br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.9606709477234!2d139.73508951511135!3d35.67797038019514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c792e14634d%3A0x49fdd1132b0ddb34!2sNinja%20Akasaka!5e0!3m2!1sen!2sau!4v1585483919611!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Mihashi Ueno Main Store, Ueno, Taito City (みはし 上野本店)</button>
+				<div class="panel">
+				<p>Anmitsu, jellies, mochi...</p><img src="https://i.pinimg.com/originals/a5/e3/26/a5e3266133f5a8d02dac3d7583a4332c.jpg" alt=menu >
+				<img src="https://media-cdn.tripadvisor.com/media/photo-s/17/83/cd/50/caption.jpg" alt=dessert_sample >
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.646493241537!2d139.77176741511235!3d35.71031588018753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e9e37a80d49%3A0x1844d142ce91a683!2sMihashi%20Ueno%20Main%20Store!5e0!3m2!1sen!2sau!4v1585483756832!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Waguriya, Nippori, Taito City (和栗や)</button>
+				<div class="panel">
+				<p>Chestnut-based confectionery</p>
+				<img src="https://tblg.k-img.com/restaurant/images/Rvw/93752/640x640_rect_93752743.jpg">
+				<img src="https://images.squarespace-cdn.com/content/582c3c949f745686020f3de9/1479298773198-JVTKISQSHNRPWGQ0H0GH/traddessert-6.jpg?content-type=image%2Fjpeg">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.7356009235996!2d139.76474172921525!3d35.72763499876148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188dd1778d9eeb%3A0x5bc1cbe7d74c08ad!2sWaguriya!5e0!3m2!1sen!2sau!4v1585483583410!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">追分だんご本舗, Shinjuku, Shinjuku City</button>
+				<div class="panel">
+				<p>Dango, mochi</p>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Oiwake_Dango1.jpg/450px-Oiwake_Dango1.jpg"></br><img src="https://stat.ameba.jp/user_images/20190915/16/yusuke-karube/e7/12/j/o1007108014588291710.jpg?caw=800"></br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4544739319053!2d139.70303841511176!3d35.690432280192155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cdb6b3ae373%3A0x24b44eda29e34afd!2z6L-95YiG44Gg44KT44GU5pys6IiX!5e0!3m2!1sen!2sau!4v1585484404746!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				
+				<button class="accordion">Shiro-Hige’s Cream Puff Factory, Daita, Setagaya City (白髭のシュークリーム工房)</button>
+				<div class="panel">
+				<p>Totoro-shaped cream puffs~~~~uwu~~~~</p>
+				<img src="https://lh3.googleusercontent.com/-M6MdZhxZ1VA/VzWBDZANA9I/AAAAAAAFT1U/pOlEftsnwwI42dobUY90_UrWZyD7g30DACCo/s800/totoro-cream-puff-factory-1-18.jpg"></br>
+				<img src="https://lh3.googleusercontent.com/-ppDhq5DCPY0/VzWBBwnpECI/AAAAAAAFT1U/EF4t9qFNbUgsfWF_oZg8oyHBydU32bXjwCCo/s800/totoro-cream-puff-factory-1-3.jpg" ></br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57293.740665323305!2d139.70709336645646!3d35.66895221032426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f36dcdd50f65%3A0x8465c5b484a16f18!2sShiro-Hige%E2%80%99s%20Cream%20Puff%20Factory!5e0!3m2!1sen!2sau!4v1585565451479!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Manneken, Chuo City(銀座マネケン)</button>
+				<div class="panel">
+				<p>Belgian waffles, with different flavours</p>
+				<img src="https://fastly.4sqi.net/img/general/width960/4447136_J6FalqrDJnp4kvzStLgqg3Ft1bXDK_WbjauWt4HKWg0.jpg"></br>
+				<img src="https://stat.ameba.jp/user_images/20141113/11/lady0619/1b/95/j/o0480064013127728462.jpg?caw=800"></br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7880.09517797544!2d139.7645020600351!3d35.67806415461781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be6775d0313%3A0x35ea6a045659a565!2sManneken!5e0!3m2!1sen!2sau!4v1585616121164!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<button class="accordion">Saryo Tsujiri, Marunouchi, Chiyoda City (茶寮 都路里)</button>
+				<div class="panel">
+				<p>Matcha flavours</p>
+				<img src="https://media-cdn.tripadvisor.com/media/photo-s/08/72/bb/07/getlstd-property-photo.jpg">
+				<img src="https://ikidane-nippon.com/upload/spot/940/28153.jpg">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.817514699021!2d139.76704041511144!3d35.68149508019423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018454fec1bc669%3A0xce6a0379dd0864cb!2z44Oe44Oz44K044O844OB44Oj44OB44OjIOmOjOWAiQ!5e0!3m2!1sen!2sau!4v1585616091343!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				
+				<h4>More resources: </h4>
+					<a href="https://www.google.com/maps/d/viewer?mid=1Ddwr-dV8_ZyOh7-G4NoBBvnbsj3aNoaq&hl=en&ll=35.705882041835714%2C139.7320178334213&z=12">map of mostly decent places to eat</a></br>
+					<a href="https://ameblo.jp/yusuke-karube/entry-11504933221.html?frm=theme">blog reviewing nice places to eat</a>
+			</div>
+			
+			<div id="Notes" class="tabcontent">
+				<ul>
+				<li>Need to buy a suica or pasmo card for transport. More info: <a href="https://www.japan-rail-pass.com/common-questions/pasmo-suica-card-usage-restrictions">pasmo-suica-card-usage-restrictions</a></li>
+				<li>If going on shinkansen, buy JR pass $400 7 days per adult</li>
+				<li>$1==about 74yen</li>
+				</ul>
+			</div>
+				
+			<div id="Questions" class="tabcontent">
+				<ul>
+				<li>What is our budget? Generally, it is impossible to make it under $2000 including accomodation and flights, so total should be about...$3000-$4000?.</li>
+				<li>Where are we staying? Airbnb and hostels recommended.</li>
+				<li>Which airport to land in? Narita vs Haneda</li>
+				<li>When are we going? </li> 
+					<ul><li>Mid Feb before start of March 2023: cold but sunny, winter illuminations, usually not much snow, plum blossoms, early cherry blossoms, strawberry season</li>
+						<p>VS</p>
+						<li>April (1st mid semester break) 2023: prime time, prime cherry blossom season, warm, crowded, more expensive, max time like a week or smthg</li>
+						<p>VS</p>
+						<li>November, or whenever we end 2022: fall foliage, crowded, nice for hiking </li></ul>
+				</ul>
+			</div>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+				<script>
+						var acc = document.getElementsByClassName("accordion");
+						var i;
+						
+						for (i = 0; i < acc.length; i++) {
+						  acc[i].addEventListener("click", function() {
+							this.classList.toggle("active");
+							var panel = this.nextElementSibling;
+							if (panel.style.maxHeight) {
+							  panel.style.maxHeight = null;
+							} else {
+							  panel.style.maxHeight = panel.scrollHeight + "px";
+							} 
+						  });
+						}
+				</script>
+			
+			<script>
+			function openCity(evt, cityName) {
+			  var i, tabcontent, tablinks;
+			  tabcontent = document.getElementsByClassName("tabcontent");
+			  for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			  }
+			  tablinks = document.getElementsByClassName("tablinks");
+			  for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			  }
+			  document.getElementById(cityName).style.display = "block";
+			  evt.currentTarget.className += " active";
+			}
+			</script>
+
+<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+		
+	</body>
+</html>
